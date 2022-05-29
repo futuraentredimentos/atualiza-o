@@ -1,5 +1,5 @@
 {
-"Version": "5.0.0",
+"Version": "6.0.0",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/futuraentredimentos/atualiza-o/main/Att",
   "Sms": "https://raw.githubusercontent.com/futuraentredimentos/atualiza-o/main/SMS%20HTTP",
@@ -17,7 +17,7 @@
         "Name": "Servidor BR",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "futura777.win",
+      "ServerIP": "futura777.xyz",
       "CheckUser": " http://144.22.233.127:8080/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
