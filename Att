@@ -1,44 +1,34 @@
 {
-  "Version": "9.1.1",
-  "ReleaseNotes": "",
+"Version": "9.0.2",
+  "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/futuraentredimentos/atualiza-o/main/Att",
   "Sms": "https://raw.githubusercontent.com/futuraentredimentos/atualiza-o/main/SMS%20HTTP",
-  "EmailFeedback": "",
-  "UrlContato": "15 991291756",
+  "Bem Vindo (A)": "",
+  "": "",
   "UrlTermos": "",
-  "CheckUser": "true",
-  "UdpPort": "7300;7400;7500;7600;7700",
+  "CheckUser": "http://144.22.233.127:8080/checkUser",
+  "Udp": [
+    {
+      "Porta": "7300"
+    }
+  ],
   "Servers": [
-  {
-      "Name": "futura SSH 🔵🔵🔵| BR1",
+    {
+        "Name": "Servidor BR",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "futura777.win",
-      "CheckUser": "",*PROGRAMAÇÃO DE FUTEBOL DOMINGO 12/06/2022* 📺⚽
-▬▬▬▬▬▬▬▬▬
-*horários de Brasília*
-*programação sujeita a alterações*
+      "CheckUser": " http://144.22.233.127:8080/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
-      "PASS": ""
-    }
-    ],
+      "PASS": ""    }
+  ],
   "Networks": [
     {
-      "Name": "ALGUNS ESTADOS",
-      "FLAG": "🔵tim",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "104.16.56.6",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "🟢VIVO 5G",
+        "Name": "🟢Vivo 1",
       "FLAG": "vivo",
-      "Payload": "GET ws://vigia.vivo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "Payload": "GET wss://vigia.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
       "SNI": "vigia.vivo.com.br",
       "TlsIP": "104.16.18.94",
       "ProxyIP": "",
@@ -46,108 +36,89 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟢VIVO 5G 1",
+        "Name": "🟢Vivo 2",
       "FLAG": "vivo",
-      "Payload": "GET ws://portaljud.vivo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "SNI": "portaljud.vivo.com.br",
-      "TlsIP": "104.18.7.80",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
+      "Payload": "GET ws://portaljud.vivo.com.br",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.18.7.80",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      
+        },
     {
-      "Name": "🔵TIM 5G",
-      "FLAG": "tim",
-      "Payload": "GET ws://static.r4you.co HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "SNI": "static.r4you.co",
-      "TlsIP": "104.26.5.175",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "🔵TIM 5G 1",
-      "FLAG": "tim",
-      "Payload": "GET ws://cdnjs.cloudflare.com HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "SNI": "cdnjs.cloudflare.com",
-      "TlsIP": "104.16.18.94",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "🔴CLARO 5G ",
-      "FLAG": "claro",
-      "Payload": "GET ws://Atendimento.descomplica.com.br 
-HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "SNI": "Atendimento.descomplica.com.br",
-      "TlsIP": "No.descomplica.com.br",
-      "ProxyIP": "199.60.103.228",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "🟡Oi 5G",
-      "FLAG": "oi",
-      "Payload": "GET wss://www.hbogo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
-      "SNI": "www.hbogo.com.br",
-      "TlsIP": "www.hbogo.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },  
-    {
-      "Name": "🟡Oi 5G 1",
-      "FLAG": "oi",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "mobilidade.cloud.caixa.gov.br",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    }, 
-    {
-      "Name": "🟢 VIVO 4G",
+	  
+        "Name": "🟢Vivo 3",
       "FLAG": "vivo",
-      "Payload": "GET ws://vigia.vivo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "SNI": "vigia.vivo.com.br",
+      "Payload": "GET wss://gedoc.vivo.com.br HTTP/1.1[crlf]Host:  [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
+      "SNI": "gedoc.vivo.com.br",
       "TlsIP": "104.18.6.80",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
-    }, 
+      
+        },
     {
-      "Name": "🟢 VIVO 4G",
+	  
+        "Name": "🟢Vivo 4",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "[app_host]",
-      "TlsIP": "104.18.7.80",
-      "ProxyIP": "[app_host]",
-      "ProxyPort": "443",
+      "Payload": "GET wss://vivo360.vivo.com.br HTTP/1.1[crlf]Host:  [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
+      "SNI": "vivo360.vivo.com.br",
+      "TlsIP": "vivo360.vivo.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
       "Info": "Tlsws"
-    }, 
+      
+        },
     {
-   "Name": "🔴 CLARO 4G",
-   "FLAG": "claro",
-   "Payload": "GET wss://Atendimento.descomplica.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-   "SNI": "Atendimento.descomplica.com.br",
-   "TlsIP": "No.descomplica.com.br",
-   "ProxyIP": "199.60.103.228",
-   "ProxyPort": "",
-   "Info": "Tlsws"
+	  
+        "Name": "🟢Vivo 5",
+      "FLAG": "vivo",
+      "Payload": "GET wss://portaldeassinaturas.vivo.com.br HTTP/1.1[crlf]Host: [app_host] [crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
+      "SNI": "portaldeassinaturas.vivo.com.br ",
+      "TlsIP": "portaldeassinaturas.vivo.com.br ",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
     },
     {
-      "Name": "🔵 TIM 4G",
+        "Name": "🟢VIVO 6",
+      "FLAG": "vivo",
+      "Payload": "GET wss://portaldeassinaturas.vivo.com.br HTTP/1.1[crlf]Host: [app_host] [crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
+      "SNI": "portaldeassinaturas.vivo.com.br ",
+      "TlsIP": "portaldeassinaturas.vivo.com.br ",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {  
+      
+      
+        "Name": "🟢Vivo 7",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host] [crlf]Upgrade: ws[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.18.6.80",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      
+    },
+    { 
+      
+         "Name": "🔵 TIM 4G",
       "FLAG": "tim",
       "Payload": "GET wss://HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "ear-test.3cyber.com",
       "TlsIP": "",
       "ProxyIP": "",
       "ProxyPort": "",
-      "Info": "Tlsws"
-    },
+      "Info": "Tlsws" 
+      
+        },
     {
-      "Name": "🔵 TIM 4G",
+	  
+            "Name": "🔵 TIM 4G",
       "FLAG": "tim",
       "Payload": "GET wss:// HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "ear-test.3cyber.com",
@@ -155,9 +126,35 @@ HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
+      
+        },
+    {
+	  
+        "Name": "🔵Tim 3",
+      "FLAG": "tim",
+      "Payload": "GET wss://static.r4you.co HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
+      "SNI": "static.r4you.co",
+      "TlsIP": "104.26.5.175",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+      
+        },
+    {
+	  
+	  
+        "Name": "🔵Tim 4",
+      "FLAG": "tim",
+      "Payload": "GET wss://static.r4you.co HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
+      "SNI": "static.r4you.co",
+      "TlsIP": "172.67.154.49",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+	  	 
     },
     {
-      "Name": "claro 🔴",
+        "Name": "claro 🔴",
       "FLAG": "claro",
       "Payload": "GET wss://No.descomplica.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "No.descomplica.com.br",
@@ -166,6 +163,63 @@ HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "ProxyPort": "443",
       "Info": "Tlsws"
       
+        },
+    {
+	  
+           "Name": "🔴 CLARO 4G",
+   "FLAG": "claro",
+   "Payload": "GET wss://Atendimento.descomplica.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+   "SNI": "Atendimento.descomplica.com.br",
+   "TlsIP": "No.descomplica.com.br",
+   "ProxyIP": "199.60.103.228",
+   "ProxyPort": "",
+   "Info": "Tlsws"
+      
+        },
+    {
+	  
+        ""Name": "🔴CLARO 3 LENTO",
+      "FLAG": "Claro",
+      "Payload": "GET ws://content.akross.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "content.akross.com.br",
+      "TlsIP": "content.akross.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"      	  
+    },
+    {
+
+         "Name": "🟡Oi 5G 1",
+      "FLAG": "oi",
+      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+
+      "Name": "🟡Oi 2",
+      "FLAG": "oi",
+      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade:ws[crlf][crlf]",
+      "SNI": "GET ws://www.hbogo.com.br",
+      "TlsIP": "104.16.55.91",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+      
+        },
+    {	  
+	  
+      "Name": "🟡Oi 3",
+      "FLAG": "oi",
+      "Payload": "GET wss://www.hbogo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]",
+      "SNI": "www.hbogo.com.br",
+      "TlsIP": "www.hbogo.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
     }
   ]
 }
